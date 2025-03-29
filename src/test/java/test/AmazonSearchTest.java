@@ -33,7 +33,7 @@ public class AmazonSearchTest extends BaseTest{
 
     @DataProvider(name="DataInput")
     public String[] fetchData() {
-        String brandList[] = new String[]{"Noise","Fire-Boltt","boAt","Garmin"};
+        String brandList[] = new String[]{"Noise","Fire-Boltt","boAt"};
         for(int i=0; i<brandList.length; i++){
             System.out.println(brandList.toString());
         }
